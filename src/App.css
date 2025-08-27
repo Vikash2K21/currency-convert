@@ -1,0 +1,82 @@
+/* Reset and basic setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fa;
+  color: #333;
+}
+
+/* Center the app */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card style */
+.app-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+.app-card h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #2d6cdf;
+}
+
+/* Input & Select */
+input,
+select {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+select:hover,
+input:focus {
+  border-color: #2d6cdf;
+}
+
+/* Buttons */
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #1a4ca5;
+}
+
+/* Error message */
+.err {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Rate display */
+.rate-display {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.rate-display strong {
+  color: #2d6cdf;
+}
