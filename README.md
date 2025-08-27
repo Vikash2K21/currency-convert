@@ -119,9 +119,9 @@ If the input is empty, the app prompts to enter an amount.
 
 Vikash Kumar – B.Tech Computer Science & Engineering – 2025
 
-GitHub: [your-github-link]
+GitHub: https://github.com/Vikash2K21
 
-LinkedIn: [your-linkedin-link]
+LinkedIn: https://www.linkedin.com/in/vikashmrh1/
 
 🎓 Assignment Notes
 
